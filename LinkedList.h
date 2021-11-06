@@ -30,7 +30,6 @@ ListNode<T>::ListNode(){}
 
 template <class T>
 ListNode<T>::~ListNode(){
-  // data = NULL;//FIXME DO I NEED THIS
   next = NULL;
   prev = NULL;
 }
